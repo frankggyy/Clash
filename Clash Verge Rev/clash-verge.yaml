@@ -70,6 +70,7 @@ rule-providers:
     behavior: classical
     interval: 28800
 rules:
+- DOMAIN-SUFFIX,cursor.com,Proxy
 - DOMAIN-SUFFIX,theia-ide.org,Proxy
 - DOMAIN-SUFFIX,eclipse.org,Proxy
 - RULE-SET,China,DIRECT

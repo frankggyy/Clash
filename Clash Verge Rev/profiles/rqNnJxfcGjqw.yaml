@@ -1,4 +1,5 @@
 prepend:
+  - 'DOMAIN-SUFFIX,cursor.com,Proxy'
   - 'DOMAIN-SUFFIX,theia-ide.org,Proxy'
   - 'DOMAIN-SUFFIX,eclipse.org,Proxy'
 append: []
