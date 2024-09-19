@@ -1,0 +1,5 @@
+prepend:
+  - 'DOMAIN-SUFFIX,theia-ide.org,Proxy'
+  - 'DOMAIN-SUFFIX,eclipse.org,Proxy'
+append: []
+delete: []

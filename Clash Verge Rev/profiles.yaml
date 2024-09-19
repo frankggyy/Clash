@@ -1,0 +1,60 @@
+# Profiles Config for Clash Verge
+
+current: L5Gx52QOl6vi
+items:
+- uid: Merge
+  type: merge
+  name: null
+  file: Merge.yaml
+  updated: 1725518786
+- uid: Script
+  type: script
+  name: null
+  file: Script.js
+  updated: 1725518786
+- uid: mBr5tPTkiZ5Y
+  type: merge
+  name: null
+  file: mBr5tPTkiZ5Y.yaml
+  updated: 1725521862
+- uid: saroDBdiUjuD
+  type: script
+  name: null
+  file: saroDBdiUjuD.js
+  updated: 1725521862
+- uid: rqNnJxfcGjqw
+  type: rules
+  name: null
+  file: rqNnJxfcGjqw.yaml
+  updated: 1725521862
+- uid: p1ODwS5sS3cm
+  type: proxies
+  name: null
+  file: p1ODwS5sS3cm.yaml
+  updated: 1725521862
+- uid: gZFFymujRuou
+  type: groups
+  name: null
+  file: gZFFymujRuou.yaml
+  updated: 1725521862
+- uid: L5Gx52QOl6vi
+  type: local
+  name: socks
+  file: L5Gx52QOl6vi.yaml
+  desc: socks
+  selected:
+  - name: GLOBAL
+    now: socks-hk
+  - name: ChinaIP
+    now: DIRECT
+  - name: China
+    now: DIRECT
+  - name: Proxy
+    now: socks-hk
+  updated: 1725521862
+  option:
+    merge: mBr5tPTkiZ5Y
+    script: saroDBdiUjuD
+    rules: rqNnJxfcGjqw
+    proxies: p1ODwS5sS3cm
+    groups: gZFFymujRuou
