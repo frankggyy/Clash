@@ -4,10 +4,8 @@ mode: rule
 mixed-port: 7897
 allow-lan: false
 log-level: info
-external-controller: 127.0.0.1:9097
+external-controller: 127.0.0.1:59097
 secret: ''
-profile:
-  store-selected: true
 tun:
   stack: gvisor
   device: Mihomo
@@ -20,6 +18,8 @@ tun:
   enable: false
 dns:
   use-system-hosts: false
+profile:
+  store-selected: true
 proxies:
 - name: socks-hk
   type: socks5
@@ -69,13 +69,15 @@ rule-providers:
     path: ./ruleset/GitHub.yaml
     behavior: classical
     interval: 28800
+  Proxy:
+    type: file
+    path: ./ruleset/Proxy.yaml
+    behavior: classical
 rules:
-- DOMAIN-SUFFIX,cursor.com,Proxy
-- DOMAIN-SUFFIX,theia-ide.org,Proxy
-- DOMAIN-SUFFIX,eclipse.org,Proxy
 - RULE-SET,China,DIRECT
 - RULE-SET,ChinaIP,DIRECT
 - RULE-SET,GitHub,GitHub
+- RULE-SET,Proxy,Proxy
 - IP-CIDR,192.168.0.0/16,DIRECT
 - IP-CIDR,127.0.0.0/8,DIRECT
 - IP-CIDR,224.0.0.0/4,DIRECT

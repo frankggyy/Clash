@@ -1,0 +1,13 @@
+payload: 
+  # Proxy
+
+  # > Eclipse
+
+  - DOMAIN-SUFFIX,eclipse.org,Proxy
+  - DOMAIN-SUFFIX,theia-ide.org,Proxy
+
+  # > Cursor
+  
+  - DOMAIN-SUFFIX,cursor.com,Proxy
+  
+  

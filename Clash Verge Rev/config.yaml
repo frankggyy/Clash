@@ -6,7 +6,7 @@ port: 7899
 log-level: info
 allow-lan: false
 mode: rule
-external-controller: 127.0.0.1:9097
+external-controller: 127.0.0.1:59097
 secret: ''
 tun:
   stack: gvisor
