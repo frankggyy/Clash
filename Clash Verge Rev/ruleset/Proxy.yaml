@@ -10,4 +10,6 @@ payload:
   
   - DOMAIN-SUFFIX,cursor.com,Proxy
   
-  
+  - DOMAIN-SUFFIX,protobuf.dev,Proxy
+
+  - DOMAIN-SUFFIX,go-zero.dev,Proxy

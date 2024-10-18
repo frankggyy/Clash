@@ -59,8 +59,8 @@ auto_log_clean: 3
 window_size_position:
 - 1350.0
 - 636.0
-- -1569.0
-- 248.0
+- 334.0
+- 125.0
 window_is_maximized: false
 enable_random_port: false
 verge_mixed_port: 7897

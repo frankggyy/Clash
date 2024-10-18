@@ -1,6 +1,6 @@
 # Profiles Config for Clash Verge
 
-current: L5Gx52QOl6vi
+current: RYfw5aPWDyzS
 items:
 - uid: Merge
   type: merge
@@ -58,3 +58,45 @@ items:
     rules: rqNnJxfcGjqw
     proxies: p1ODwS5sS3cm
     groups: gZFFymujRuou
+- uid: mzsMBlT9LTbA
+  type: merge
+  name: null
+  file: mzsMBlT9LTbA.yaml
+  updated: 1727661586
+- uid: sHjy4BG9XO4D
+  type: script
+  name: null
+  file: sHjy4BG9XO4D.js
+  updated: 1727661586
+- uid: rQZumWi9P41P
+  type: rules
+  name: null
+  file: rQZumWi9P41P.yaml
+  updated: 1727661586
+- uid: pYF9JJPqU9W1
+  type: proxies
+  name: null
+  file: pYF9JJPqU9W1.yaml
+  updated: 1727661586
+- uid: gywPSEzNfyyU
+  type: groups
+  name: null
+  file: gywPSEzNfyyU.yaml
+  updated: 1727661586
+- uid: RYfw5aPWDyzS
+  type: remote
+  name: AmyTelecom_Clash.yaml
+  file: RYfw5aPWDyzS.yaml
+  url: https://orxyji.xyz/?L1N1YnNjcmlwdGlvbi9DbGFzaD9zaWQ9NTU5NDcmdG9rZW49Qkk3M05jTXVvSFkmbW09NjYwMzMmNjJiNTY5MDY4ZDY4NDM=
+  extra:
+    upload: 179416077
+    download: 19370527412
+    total: 53687091200
+    expire: 1743120000
+  updated: 1728547203
+  option:
+    merge: mzsMBlT9LTbA
+    script: sHjy4BG9XO4D
+    rules: rQZumWi9P41P
+    proxies: pYF9JJPqU9W1
+    groups: gywPSEzNfyyU
